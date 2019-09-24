@@ -10,5 +10,10 @@ public class Time {
        // part 3
         double result = (hour * 3600) + (minute * 60) + second;
         System.out.println( "Seconds since midnight: \n" + result);
+
+        // part 4
+        System.out.println("Seconds remaining in the day: \n" + (86400 - result) );
+
     }
+
 }
